@@ -5,7 +5,8 @@
 \usepackage{amsmath}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
-
+\usepackage{mathtools}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 
 \renewcommand\refname{Daftar Pustaka}
 \renewcommand{\figurename}{Gambar}
@@ -49,11 +50,35 @@ Data Compression, Huffman Coding, Weather Report, Probability.
 \hspace*{1cm}Dalam makalah ini, pengubahan bentuk data menjadi kode akan menggunakan Algoritma Huffman yaitu algoritma yang tiap karakter (simbol) dikodekan hanya dengan rangkaian beberapa bit, dimana karakter yang sering muncul dikodekan dengan rangkaian bit yang pendek dan karakter yang jarang muncul dikodekan dengan rangkaian bit yang lebih panjang sehingga akan mempermudah untuk menyelesaikan suatu masalah perkiraan cuaca.
 
 \section{Metode Penelitian}
-Metode Penelitian ... ... ...
-
-\subsection{Subsection}
-bla bla ... ... ...
-
+\hspace*{0.7cm}Tahapan penelitian yang akan dilakukan dalam makalah ini adalah menggunakan algoritma Huffman untuk pengubahan sekumpulan data menjadi suatu bentuk kode agar menghemat kebutuhan tempat penyimpanan dan waktu transmisi data.\\
+\\
+\textbf{\textit{Algoritma Huffman}}\\
+\hspace*{0.7cm}Permasalahan dalam makalah ini akan diselesaikan dengan pengkodean huffman dari string $4^n$ dengan panjang $n$ pada alfabet {S, C, R, F}, dimana dengan probabilitas sebuah string dengan $f_S$ S's, $f_C$ C's, $f_R$ R's dan $f_F$ F's adalah ${P^S}_{sunny}$ . ${P^fc}_{cloudy}$ . ${P^R}_{rainy}$ . ${P^F}_{foggy}$ , namun $4^n$ sangat besar sehingga tidak dapat mensimulasikan prosedur pengkodean huffman secara sederhana. Namun, karena struktur produk dari distribusi, akan ada banyak node dalam pengkodean huffman yang memiliki probabilitas yang sama, jadi kita dapat mengelompokkannya dan tetap menghitungnya.\vspace*{1mm}
+\hspace*{1cm}Awalnya ada $\binom{n}{f_S,f_C,f_R,f_F} = \frac{n!}{f_s! f_c! f_R! f_F!}$ node\vspace*{1mm} dengan probabilitas ${P^S}_{sunny} , {P^fc}_{cloudy} , {P^R}_{rainy} , {P^F}_{foggy}$ (untuk setiap kombinasi nilai non-negatif $f_S, f_C, f_R, f_F$ penjumlahan sampai $n$). Sekarang kita lanjutkan dengan huffman encoding: pilih node probabilitas terkecil, misal probabilitas ini adalah $p$. Jika ada $K$ node dengan probabilitas ini, maka akan menimbulkan $\floor*{K / 2}$ node dari probabilitas $2p$, dan jika $K$ adalah bilangan ganjil maka satu node dari probabilitas $p$ yang tersisa akan di cocokan dengan salah satu node dengan nilai probabilitas terkecil kedua.\\
+\\
+Langkah-langkah pembentukan pohon Huffman adalah sebagai berikut :
+\begin{enumerate}
+	\item Baca semua karakter di dalam teks untuk menghitung frekuensi kemunculan setiap karakter. Setiap karakter penyusun teks dinyatakan sebagai pohon bersimpul tunggal. Setiap simpul di-assign dengan frekuensi kemunculan karakter tersebut.
+	\item Terapkan strategi algoritma sebagai berikut, gabungkan dua buah pohon yang mempunyai frekuensi terkecil pada sebuah akar. Setelah digabungkan, akar tersebut akan mempunyai frekuensi yang merupakan jumlah dua buah pohon-pohon penyusunnya.
+	\item Ulangi langkah 2 sampai hanya tersisa satu buah pohon Huffman. Agar pemilihan dua pohon yang akan digabungkan berlangsung cepat, maka semua pohon yang ada selalu terurut menaik berdasarkan frekuensi.
+\end{enumerate}
+Sebagai contoh, dalam kode ASCII string 7 huruf “ABACCDA” membutuhkan representasi 7 x 8 bit = 56 bit (7 byte), dengan rincian sebagai berikut:
+\begin{center}
+	A = 01000001\\
+	B = 01000010\\
+	A = 01000001\\
+	C = 01000011\\
+	C = 01000011\\
+	D = 01000100\\
+	A = 01000001\\
+\end{center}
+Pada string tersebut, frekuensi kemunculan A = 3, B = 1, C=2, dan D = 1, sehingga proses pembentukan pohon Huffman-nya adalah seperti yang ditampilkan pada gambar berikut:
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Capture.png}
+	\caption{Tree Algoritma Huffman}
+	\label{fig:tree}
+\end{figure}
 \section{Hasil Penelitian}
 hasilnya.......
 
