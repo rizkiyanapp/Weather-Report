@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2017.2.25)  24 APR 2017 03:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2017.2.25)  28 APR 2017 04:29
 entering extended mode
 **"./Weather Reports - Paper.tex"
 ("Weather Reports - Paper.tex"
@@ -239,35 +239,71 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip49
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) ("Weather Reports - Paper.aux")
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count116
+\calc@Bcount=\count117
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count118
+\calc@Cskip=\skip52
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count119
+\l_MT_multwidth_dim=\dimen139
+\origjot=\skip53
+\l_MT_shortvdotswithinadjustabove_dim=\dimen140
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen141
+\l_MT_above_intertext_sep=\dimen142
+\l_MT_below_intertext_sep=\dimen143
+\l_MT_above_shortintertext_sep=\dimen144
+\l_MT_below_shortintertext_sep=\dimen145
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen146
+)
+("Weather Reports - Paper.aux")
 \openout1 = `"Weather Reports - Paper.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 -- Lines per column: 58 (exact).
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen137
+\scratchcounter=\count120
+\scratchdimen=\dimen147
 \scratchbox=\box32
-\nofMPsegments=\count117
-\nofMParguments=\count118
+\nofMPsegments=\count121
+\nofMParguments=\count122
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen138
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen148
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
 \everyMPtoPDFconversion=\toks25
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -314,42 +350,121 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+Missing character: There is no ‚ in font ptmb7t!
+Missing character: There is no Ä in font ptmb7t!
+Missing character: There is no ã in font ptmb7t!
+Missing character: There is no ‚ in font ptmb7t!
+Missing character: There is no Ä in font ptmb7t!
+Missing character: There is no ã in font ptmb7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
 
-[1{C:/Users/ROBOCOM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+Underfull \hbox (badness 10000) in paragraph at lines 64--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--78
+| \OT1/ptm/m/n/10 Al-go-ritma Huff-man adalah salah satu al-go-ritma
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 64--78
+\OT1/ptm/m/n/10 kom-presi. Al-go-ritma huff-man meru-pakan al-go-ritma yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--78
+\OT1/ptm/m/n/10 Langkah-langkah pem-ben-tukan po-hon Huff-man adalah
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/ROBOCOM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-[2
+Underfull \hbox (badness 10000) in paragraph at lines 80--90
 
-] ("Weather Reports - Paper.aux") ) 
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 80--90
+\OT1/ptm/m/n/10 Langkah-langkah un-tuk melakukan en-cod-ing pada su-atu
+ []
+
+<Capture2.png, id=10, 462.97969pt x 258.21469pt>
+File: Capture2.png Graphic file (type png)
+ <use Capture2.png>
+Package pdftex.def Info: Capture2.png used on input line 95.
+(pdftex.def)             Requested size: 252.0pt x 140.54887pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
+
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 99--104
+\OT1/ptm/m/n/10 in-ter-val $\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10  \OML/cmm/m/it/
+10 N \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 20$ \OT1/ptm/m/n/10 pada baris per-tama
+, lalu 4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
+\OT1/ptm/m/n/10 angka des-i-mal yang merep-re-sen-tasikan prob-a-bil-i-tas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
+\OML/cmm/m/it/10 P[]; P[]; P[]; P[]$ \OT1/ptm/m/n/10 yang bila di-jum-lahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
+
+ []
+
+<Capture3.png, id=12, 353.06906pt x 238.64156pt>
+File: Capture3.png Graphic file (type png)
+ <use Capture3.png>
+Package pdftex.def Info: Capture3.png used on input line 108.
+(pdftex.def)             Requested size: 252.0pt x 170.32881pt.
+ [2 <./Capture2.png> <./Capture3.png>] [3] ("Weather Reports - Paper.aux") ) 
 Here is how much of TeX's memory you used:
- 3502 strings out of 493334
- 53595 string characters out of 3136666
- 125457 words of memory out of 3000000
- 7006 multiletter control sequences out of 15000+200000
- 36357 words of font info for 65 fonts, out of 3000000 for 9000
+ 4122 strings out of 493334
+ 64211 string characters out of 3136666
+ 139685 words of memory out of 3000000
+ 7593 multiletter control sequences out of 15000+200000
+ 44148 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,5n,25p,763b,174s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc
-/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
-/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Weather Reports - Paper.pdf" (2 pages, 59817 bytes).
+ 40i,14n,25p,794b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:
+/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on "Weather Reports - Paper.pdf" (3 pages, 189948 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
